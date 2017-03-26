@@ -86,21 +86,20 @@ For type 8x: `=((26-5)*5*(26-5)*5)^8/2` Why `/2`? Brute-force a halfway and find
 from math import log
 for i in range(8,1,-1):
     cvcv = (26 - 5) * 5 * (26 - 5) * 5
-    print('%d %dx 10^%-3d 2^%-3d'%(9-i, i, int(log(cvcv ** i / 2, 10)), int(log(cvcv ** i / 2, 2))))
+    print('%d %dx 10^%-2d 2^%-3d'%(9-i, i, int(log(cvcv ** i / 2, 10)), int(log(cvcv ** i / 2, 2))))
 ```
 Output:
 ```
-1 8x 10^32  2^106
-2 7x 10^27  2^92 
-3 6x 10^23  2^79 
-4 5x 10^19  2^66 
-5 4x 10^15  2^52 
-6 3x 10^11  2^39 
-7 2x 10^7   2^25 
-8 1x 10^3   2^12 
+1 8x 10^32 2^106
+2 7x 10^27 2^92 
+3 6x 10^23 2^79 
+4 5x 10^19 2^66 
+5 4x 10^15 2^52 
+6 3x 10^11 2^39 
+7 2x 10^7  2^25 
 ```
 For general use (10^16):  
-`>=` `5 4x 10^15  2^52 ` i.e. `zvcv cvcv cvcv cvcv.`  
+`>=` `5 4x 10^15 2^52 ` i.e. `zvcv cvcv cvcv cvcv.`  
 For top secret (10^31):  
-`>=` `1 8x 10^32  2^106` i.e. `zvcv cvcv cvcv cvcv cvcv cvcv cvcv cvcv.`  
-`1 8x 10^32  2^106` can also be the title of your keepass password generation profile.  
+`>=` `1 8x 10^32 2^106` i.e. `zvcv cvcv cvcv cvcv cvcv cvcv cvcv cvcv.`  
+`1 8x 10^32 2^106` can also be the title of your keepass password generation profile.  
