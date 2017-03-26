@@ -103,3 +103,6 @@ For general use (10^16):
 For top secret (10^31):  
 `>=` `1 8x 10^32 2^106` i.e. `zvcv cvcv cvcv cvcv cvcv cvcv cvcv cvcv.`  
 `1 8x 10^32 2^106` can also be the title of your keepass password generation profile.  
+
+# Credit
+[Diceware](https://en.wikipedia.org/wiki/Diceware) and [MasterPassword](https://github.com/Lyndir/MasterPassword/).
