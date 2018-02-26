@@ -44,11 +44,13 @@ Typing an uppercase should be avoid. Yet some sites force our password to contai
 `v`: `aeiou` Lower-Case Vowel.  
 `c`: `bcdfghjklmnpqrstvwxyz` Lower-Case Consonant.  
   
-- For general use (10^23.18):  
+- For general use (10^23.18): 6 words     
 `>=` `6x  10^23.95 2^ 79.57`  
-- For top secret (10^31.46):  
+- For top secret (10^31.46):  8 words   
 `>=` `8x  10^32.03 2^106.42`  
-`8x  10^ 32.04 2^106.43` can also be the title of your keepass password generation profile.  
+   
+
+`8x  10^ 32.04 2^106.43` can be the title of your keepass password generation profile also.  
 [How to set new profile as default?](https://superuser.com/questions/379823/can-i-change-the-default-password-profile-in-keepass)
 
 # Example
