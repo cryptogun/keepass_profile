@@ -76,9 +76,10 @@ All possible combinations for 8 characters password (A-z 0-9 and special charact
 
 - For general use:  
     * [10^19.27](https://en.wikipedia.org/wiki/S/KEY) `=log(2^64)`
-> Internally, S/KEY uses 64-bit numbers. For human usability purposes.
+    > Internally, S/KEY uses 64-bit numbers. For human usability purposes.
+
     * [10^23.18](https://en.wikipedia.org/wiki/Diceware) `=log(2^77)`
-> Originally, in 1995, Diceware creator Arnold Reinhold considered five words (64 bits) the minimal length needed by average users. However, starting in 2014, Reinhold recommends that at least six words (77 bits) should be used.
+    > Originally, in 1995, Diceware creator Arnold Reinhold considered five words (64 bits) the minimal length needed by average users. However, starting in 2014, Reinhold recommends that at least six words (77 bits) should be used.
 
 - For top secret:  
 
@@ -86,14 +87,15 @@ All possible combinations for 8 characters password (A-z 0-9 and special charact
 Hashes done by one Brutalis (8x Nvidia GTX 1080) in 100 years.
 
     - 10^22.50 `=log(10*10^12*60*60*24*365*100)`
-> Assume your adversary is capable of one trillion guesses per second.  
--- Snowden, 2015.
+    > Assume your adversary is capable of one trillion guesses per second.  
+    -- Snowden, 2015.
+
 
     - [10^24.09](https://www.wired.com/2015/04/snowden-sexy-margaret-thatcher-password-isnt-so-sexy/) `=log(2^80)`
-> Bonneau estimates that a passphrase needs at least 70 or 80 bits of entropy to be considered secure.
+    > Bonneau estimates that a passphrase needs at least 70 or 80 bits of entropy to be considered secure.
 
     - [10^26.09](https://www.quora.com/How-fast-could-the-worlds-fastest-supercomputer-brute-force-crack-a-password) `=log(38360000000000000*60*60*24*365*100)`
-> I believe the fastest supercomputer can do 38,360,000,000,000,000 keys per second right now. (2013)
+    > I believe the fastest supercomputer can do 38,360,000,000,000,000 keys per second right now. (2013)
 
     - [10^26.47](https://en.wikipedia.org/wiki/TOP500) `=log(93*10^15*60*60*24*365*100)`  
 FLOPS of supercomputer Sunway (world top 1, 2016) in 100 years. 93 petaflops. Note: KB MB GB TB PB  
@@ -105,10 +107,10 @@ Hashes done in 100 years by Brutalis, purchased by a whole year GDP of US. GDP i
 MIPS in 100 years by AMD 1800x, purchased by a whole year GDP of US. 1800x MIPS: [31642](https://arstechnica.com/gadgets/2017/03/amd-ryzen-review/3/); core: 8; price: $500.
 
     - [10^38.54](https://en.wikipedia.org/wiki/Password_strength) `=log(2^128)`
-> Their answers vary between 29 bits of entropy needed if only online attacks are expected, and up to 128 bits of entropy needed for important cryptographic keys...
+    > Their answers vary between 29 bits of entropy needed if only online attacks are expected, and up to 128 bits of entropy needed for important cryptographic keys...
 
     - [10^38.54](https://en.wikipedia.org/wiki/Key_size) `=log(2^128)`
-> The large number of operations (2128) required to try all possible 128-bit keys is widely considered out of reach for conventional digital computing techniques for the foreseeable future.  
+    > The large number of operations (2128) required to try all possible 128-bit keys is widely considered out of reach for conventional digital computing techniques for the foreseeable future.  
 -- How secure is AES against brute force attacks?
 
 ## 2. Easy to type.  
